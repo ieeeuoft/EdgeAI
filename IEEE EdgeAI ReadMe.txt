@@ -1,3 +1,7 @@
+Welcome to IEEE's EdgeAI 2025 workshop. Let's get building!
+
+At the Rate Symbol: @
+
 The following lines of code are used for setup:
 
 sudo apt update
@@ -10,4 +14,5 @@ EdgeImpulse Login:
 NODE_OPTIONS="--dns-result-order=ipv4first" edge-impulse-linux --disable-login
 
 EdgeImpulse Runner:
+
 NODE_OPTIONS="--dns-result-order=ipv4first" edge-impulse-linux-runner --disable-login
