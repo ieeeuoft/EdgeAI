@@ -11,8 +11,8 @@ sudo npm install edge-impulse-linux -g --unsafe-perm
 sudo apt install -y gstreamer1.0-libcamera
 
 EdgeImpulse Login:
-NODE_OPTIONS="--dns-result-order=ipv4first" edge-impulse-linux --disable-login
+NODE_OPTIONS="--dns-result-order=ipv4first" edge-impulse-linux --disable-login --clean
 
 EdgeImpulse Runner:
-
 NODE_OPTIONS="--dns-result-order=ipv4first" edge-impulse-linux-runner --disable-login
+
